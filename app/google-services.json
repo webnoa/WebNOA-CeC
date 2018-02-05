@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "845833494465",
+    "firebase_url": "https://consultaenconsultorio.firebaseio.com",
+    "project_id": "consultaenconsultorio",
+    "storage_bucket": "consultaenconsultorio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845833494465:android:e5cc5e7e60fe55e6",
+        "android_client_info": {
+          "package_name": "ar.com.webnoa.consultaenconsultorio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845833494465-9d5s9nqv1rcslpttm4l8e93a894rt4g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.com.webnoa.consultaenconsultorio",
+            "certificate_hash": "fefdffdaa1dbd78eb9a3feda8b26f8e6cff5980a"
+          }
+        },
+        {
+          "client_id": "845833494465-rahct4oj1cumps408cbia5fhfroft6ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.com.webnoa.consultaenconsultorio",
+            "certificate_hash": "2625b0090ca7b4923ba142ec0e6ed3c4f500732a"
+          }
+        },
+        {
+          "client_id": "845833494465-gvf6kgptgg1ufo730f7gp3ljid690ik9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq69UCUltLm17FNYPAfADIWWbez4MTabs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845833494465-gvf6kgptgg1ufo730f7gp3ljid690ik9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

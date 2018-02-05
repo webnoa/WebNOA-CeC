@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+
+    <entry>
+        <key>tituloSec</key>
+        <value>Validación en Linea - OSDE Filial Tucumán</value>
+    </entry>
+
+    <entry>
+        <key>botonPrestacion</key>
+        <value>REGISTRAR PRESTACION</value>
+    </entry>
+
+    <entry>
+        <key>labelTx</key>
+        <value>Nro Transacción</value>
+    </entry>
+
+    <entry>
+        <key>nroAfiliadoHit</key>
+        <value>Nro Afiliado</value>
+    </entry>
+
+    <entry>
+        <key>cdsHit</key>
+        <value>CdS</value>
+    </entry>
+
+    <entry>
+        <key>botonValidar</key>
+        <value>VALIDAR</value>
+    </entry>
+
+    <entry>
+        <key></key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key></key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key></key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key></key>
+        <value></value>
+    </entry>
+
+
+    <entry>
+        <key></key>
+        <value></value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->
