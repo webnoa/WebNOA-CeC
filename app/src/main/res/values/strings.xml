@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">Consulta en Consultorio</string>
+
+    <string name="tituloSec">Validación en Linea - OSDE Filial Tucumán</string>
+
+    <string name="botonPrestacion">REGISTRAR PRESTACION</string>
+
+    <string name="labelTx">Nro Transacción: </string>
+
+    <string name="nroAfiliadoHit">Nro Afiliado</string>
+
+    <string name="cdsHit">CdS</string>
+
+    <string name="botonValidar">VALIDAR</string>
+
+    <string name="dialogTitulo">Anular Transacción</string>
+
+    <string name="dialogPregunta">Seguro, desea Anular la transacción?</string>
+
+    <string name="espere">Espere por favor…</string>
+
+    <string name="config">Configuración</string>
+
+    <string name="yes">Si</string>
+
+    <string name="no">No</string>
+
+    <string name="once">Nro Afiliado, No puede ser menor o mayor, a 11 digitos</string>
+
+    <string name="transaccion"> Transacción </string>
+
+    <string name="anulada"> Anulada </string>
+
+    <string name="anuladatx"> Transacción %1$s Anulada </string>
+
+    <string name="prestacionOk">¡ OK - Prestacion Registrada !</string>
+
+    <string name="rechazada">¡ Solicitud Rechazada !</string>
+
+    <string name="nombre">Nombre</string>
+
+    <string name="cuit">CUIT</string>
+
+    <string name="nroPrestador">Nro Prestador</string>
+
+    <string name="guardar">Guardar</string>
+
+    <string name="fecha">Fecha</string>
+
+    <string name="tx">TX</string>
+
+    <string name="ya">¡ Transacción ya anulada !</string>
+
+</resources>
