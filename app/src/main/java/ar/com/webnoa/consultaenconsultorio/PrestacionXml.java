@@ -48,7 +48,7 @@ public class PrestacionXml extends AsyncTask{
     private String aviso;
     private String colorAviso;
 
-    //------------------------------------
+    //-----------------Random NRo IDMSJ-------------------
     Random rand = new Random();
     int n = rand.nextInt(99999999);
 
@@ -75,7 +75,7 @@ public class PrestacionXml extends AsyncTask{
         dVersionCredencial = dCodSeg.getText().toString();
     }
 
-    /*--------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------Metodos PRE / POST---------------------------------------------------------------*/
 
     @Override
     protected void onPreExecute() {

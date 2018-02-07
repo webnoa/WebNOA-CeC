@@ -18,13 +18,13 @@ public class SQLControlador {
     public SQLControlador(Context c) {
         ourcontext = c;
     }
-
+    // Abre Base de Datos
     public SQLControlador abrirBaseDeDatos() throws SQLException {
         dbhelper = new DBhelper(ourcontext);
         database = dbhelper.getWritableDatabase();
         return this;
     }
-
+    //Inserta Datos
     public void insertarDatos(String referencia,String idMsj,String fechaHora,String fechaTx, String nombre, String nroAfiliado, String nroTx) {
         ContentValues cv = new ContentValues();
 
@@ -38,7 +38,7 @@ public class SQLControlador {
 
         database.insert(DBhelper.TABLE_TX, null, cv);
     }
-
+    //Lectura de Datos
     public Cursor leerDatos() {
         String[] todasLasColumnas = new String[] {
                 DBhelper.TX_ID,
@@ -57,7 +57,7 @@ public class SQLControlador {
         }
         return c;
     }
-
+    //Actualiza Datos
     public int actualizarDatos(long vID, String VnroTx) {
         ContentValues cvActualizar = new ContentValues();
 
@@ -71,7 +71,7 @@ public class SQLControlador {
         database.delete(DBhelper.TABLE_TX, DBhelper.TX_ID + "="
                 + dID, null);
     }
-
+    //Cerrar base de datos
     public void cerrar() {
         dbhelper.close();
     }

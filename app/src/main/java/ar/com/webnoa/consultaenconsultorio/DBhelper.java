@@ -17,7 +17,7 @@ public class DBhelper extends SQLiteOpenHelper{
     static final String TX_NOMBRE = "nombre";
     static final String TX_NROAFILIADO = "nroAfiliado";
     static final String TX_NROTX = "nroTx";
-    // información del a base de datos
+    // Información del a base de datos
     private static final String DB_NAME = "DATA-DB";
     private static final int DB_VERSION = 1;
     // Información de la tabla

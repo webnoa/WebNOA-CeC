@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static String dTextoId,dTextoReferencia,dTextoNroAfiliado,dTextoTx;
     int posision;
-   // private Long ide;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
         //clic en item listview
         listaPrestaciones.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         LecturaDeDatos();
     }
 
-    //Alert
+    //Alert Dialog
     private void alert() {
 
         AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this)
@@ -104,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main,menu);
         return super.onCreateOptionsMenu(menu);
     }
-    //Clic icono Configuracion
+    //Clic icono Configuración
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

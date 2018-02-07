@@ -56,7 +56,7 @@ public class AnularXml extends AsyncTask{
         this.dTextoId=dTextoId;
         this.dTextoTx=dTextoTx;
     }
-
+    /* -------------------------------------------------- Metodos Pre / Post --------------------------------------------------*/
     @Override
     protected Object doInBackground(Object[] objects) {
         ProcesarXML (obtenerResultado());

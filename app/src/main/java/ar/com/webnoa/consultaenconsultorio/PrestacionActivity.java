@@ -27,7 +27,7 @@ public class PrestacionActivity extends AppCompatActivity {
         validarBtn = findViewById(R.id.validarBtn);
         resultadoTxt = findViewById(R.id.ResultadoTxt);
         avisoTxt = findViewById(R.id.AvisoTxt);
-
+        //Boton Validar
         validarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
